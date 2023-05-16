@@ -1,0 +1,50 @@
+body{
+    font-size: 40px;
+}
+.container{
+    background-image: url("https://media.istockphoto.com/id/1175468213/vector/snow-seamless-pattern-white-stars-dotes-isolated-on-black-background.jpg?s=612x612&w=0&k=20&c=ZLXienljPAX6wcsUWfSNJyxvNe17qr3bg7pCSMfQNuI=");
+    overflow: hidden;
+    color: white
+    
+}
+.Heading{
+    color: orange ;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+li{
+    list-style: none;
+}
+.Left{
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    float: left;
+    width: 40vw;
+}
+.Right{
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    width: 40vw;
+    float: right;
+}
+@media only screen and (max-width : 900px){
+    body{
+    font-size: 30px;
+    
+    }
+    .Left{
+        width: 90vw;
+        margin: 10px;
+        padding: 10px;
+    }
+    .Right{
+        width: 90vw;
+        margin: 10px;
+        padding: 10px;
+
+    }
+}
